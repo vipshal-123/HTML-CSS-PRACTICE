@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-.container .section1{
+.container .section1 .desktop{
     height: 375px;
     width: 250px;
 }
@@ -65,11 +65,11 @@ body{
 .section2 .price{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 10px;
 }
 
 .section2 .price p{
+    margin-top: 6px;
     color: #6c7289;
     font-family: 'Montserrat', sans-serif;
 }
@@ -105,15 +105,10 @@ body{
         display: flex;
         flex-direction: column;
         height: 100vh;
-        margin: 30px;
     }
 
     .container .section1 .desktop{
         display: none;
-    }
-
-    .section1{
-        width: 100px;
     }
 
     .container .section1 .mobile{
@@ -122,15 +117,13 @@ body{
 
     .container .section1 img{
         border-radius: 0px;
-        width: 253px;
+        width: 255px;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
     }
 
     .container .section2{
         border-radius: 0px;
-        margin-left: 3px;
-        margin-right: 1px;
     }
         
 }
