@@ -19,6 +19,7 @@ body{
 
 .container .section1{
     width: 500px;
+    height: 380px;
     background-color: 	#1b1938;
     padding: 70px;
     text-align: center;
@@ -47,7 +48,6 @@ body{
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
-
 }
 
 .container .section1 .template p{
@@ -72,5 +72,46 @@ body{
     top: 125px;
     bottom: 0px;
     opacity: 0.5;
+}
+
+@media screen and (max-width : 850px) {
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .section2 img{
+        width: 340px;
+        height: 380px;
+    }
+
+    .container .section1{
+        width: 340px;
+        height: auto;
+        background-color: 	#1b1938;
+        padding: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .container .section1 .template{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container .section2 .overlay{
+        height: 239px;
+        width: 340px;
+        background-color: #aa5cdb;
+        position: absolute;
+        top: 0;
+        bottom: 0px;
+        opacity: 0.5;
+    }
+    
 }
 
