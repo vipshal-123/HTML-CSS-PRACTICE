@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@300;500;700;800&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Poppins&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,300&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #19a2ae;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_top{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    top: -35%;
+    left: -33%;
+    right: -30%;
+    bottom: 40%;
+}
+
+.bg_bottom{
+    position: absolute;
+    overflow: hidden;
+    height: 100vh;
+    bottom: -28%;
+    right: -30%;
+
+}
+
+.container .section{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.section .image{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section .image img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.section .profile-image img{
+    position: absolute;
+    overflow: hidden;   
+    top:100%;
+    left: 50%;
+    margin: 0;
+    border: 6px white solid;
+    border-radius: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.section .profile_data{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-weight: 700;
+}
+
+hr{
+    color: #969696;
+    opacity: 0.5;
+}
+
+.section .profile_data h3 span{
+    color: #969696;
+    font-weight: 400;
+}
+
+.section .profile_data p{
+    color: #969696;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section .social_media{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.follow p , .like p , .photo p{
+    color: #969696;
+    font-weight: 400;
+    font-size: 12px;
+}
